@@ -21,7 +21,6 @@ Bu proje, Python kullanarak belirlenen numaralara otomatik SMS göndermeyi sağl
 2. **Sanal ortamı oluşturup aktif edin:**
    
          python3 -m venv venv
-    
          source venv/bin/activate
 
 4. **Gerekli kütüphaneleri yükleyin:**
@@ -36,7 +35,6 @@ Bu proje, Python kullanarak belirlenen numaralara otomatik SMS göndermeyi sağl
        
    .env dosyasını açıp kendi API / kullanıcı bilgilerinizi yazın.
    
-
 8. **.env dosyasının içine:**
 
        # SMS Servisi API Bilgileri
