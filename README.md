@@ -35,17 +35,20 @@ Bu proje, Python kullanarak belirlenen numaralara otomatik SMS göndermeyi sağl
        cp .env.example .env
        
    .env dosyasını açıp kendi API / kullanıcı bilgilerinizi yazın.
+   
 
-7. **.env dosyasının içine:**
+8. **.env dosyasının içine:**
 
        # SMS Servisi API Bilgileri
-         SMS_API_KEY=buraya_api_anahtarinizi_yazin
-         SMS_API_SECRET=buraya_api_gizli_anahtarinizi_yazin
-         SENDER_TITLE=BAŞLIK
+   
+            SMS_API_KEY=buraya_api_anahtarinizi_yazin
+            SMS_API_SECRET=buraya_api_gizli_anahtarinizi_yazin
+            SENDER_TITLE=BAŞLIK
 
-         # Kullanıcı / Gönderici Bilgileri
-         PHONE_NUMBER=+905XXXXXXXXX
+       # Kullanıcı / Gönderici Bilgileri
+   
+            PHONE_NUMBER=+905XXXXXXXXX
     
-8. **Kullanım:**
+10. **Kullanım:**
 
-   python3 main.py
+         python3 main.py
